@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { ReactNode } from "react";
 
 import { AnnouncementBar } from "@/components/layout/AnnouncementBar";
@@ -8,6 +8,12 @@ import { NewsletterSection } from "@/components/layout/NewsletterSection";
 import { StorefrontProviders } from "@/components/layout/StorefrontProviders";
 
 import "./globals.css";
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+};
 
 export const metadata: Metadata = {
   title: "Loom & Linen | Premium Bedding & Home Linen",

@@ -111,7 +111,7 @@ export function FeaturedCollectionsSection() {
 
         {/* Secondary row — remaining tiles in a 2×2 or 4-col grid */}
         {rest.length > 0 && (
-          <div className="mt-4 grid grid-cols-2 gap-4 lg:grid-cols-4">
+          <div className="mt-4 grid grid-cols-1 gap-4 min-[400px]:grid-cols-2 lg:grid-cols-4">
             {rest.map((c) => (
               <CollectionTile key={c.id} collection={c} />
             ))}

@@ -72,7 +72,7 @@ export function HeroSection() {
             </div>
 
             {/* Trust badges */}
-            <ul className="mt-7 flex flex-wrap gap-x-5 gap-y-2 sm:mt-8">
+            <ul className="mt-7 flex flex-col gap-2 min-[400px]:flex-row min-[400px]:flex-wrap min-[400px]:gap-x-5 min-[400px]:gap-y-2 sm:mt-8">
               {heroBadges.map((badge) => (
                 <li
                   key={badge.text}

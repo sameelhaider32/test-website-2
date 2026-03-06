@@ -58,7 +58,7 @@ export function Header() {
 
           <Link
             href="/"
-            className="whitespace-nowrap text-[17px] font-semibold uppercase tracking-[0.15em] text-ink transition-colors hover:text-cocoa sm:text-lg"
+            className="whitespace-nowrap text-[15px] font-semibold uppercase tracking-[0.12em] text-ink transition-colors hover:text-cocoa sm:text-lg sm:tracking-[0.15em]"
             aria-label="Loom and Linen home"
           >
             Loom &amp; Linen

@@ -304,7 +304,7 @@ export function MobileNavDrawer() {
               animate={{ x: 0 }}
               exit={{ x: "-100%" }}
               transition={panelTransition}
-              className="relative flex h-full w-[300px] max-w-[85%] flex-col bg-white shadow-card"
+              className="relative flex h-[100dvh] w-[300px] max-w-[85vw] flex-col bg-white shadow-card"
             >
               {/* Header */}
               <div className="flex h-14 shrink-0 items-center justify-between border-b border-oat/60 px-5">
@@ -326,7 +326,7 @@ export function MobileNavDrawer() {
               </div>
 
               {/* Scrollable content */}
-              <div className="flex-1 overflow-y-auto overscroll-contain px-5 py-5">
+              <div className="flex-1 overflow-y-auto overscroll-contain px-5 py-4 pb-[env(safe-area-inset-bottom,20px)]">
                 <nav aria-label="Mobile navigation">
                   {navItems.map((item, i) => {
                     const hasMega = Boolean(item.groups?.length);

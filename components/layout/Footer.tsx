@@ -109,7 +109,7 @@ export function Footer() {
         </div>
 
         {/* ---- bottom bar ---- */}
-        <div className="mt-12 flex flex-col items-center gap-5 border-t border-white/10 pt-6 sm:flex-row sm:justify-between">
+        <div className="mt-10 flex flex-col items-center gap-4 border-t border-white/10 pt-6 text-center sm:mt-12 sm:flex-row sm:justify-between sm:text-left">
           {/* Copyright */}
           <p className="text-xs text-white/50">
             &copy; {new Date().getFullYear()} Loom&nbsp;&amp;&nbsp;Linen.

@@ -33,7 +33,7 @@ export function PromoAndEditorialSection() {
 
           {/* Text content */}
           <div className="absolute inset-0 flex items-center">
-            <div className="w-full px-6 sm:px-10 lg:px-12">
+            <div className="w-full px-5 sm:px-10 lg:px-12">
               <div className="max-w-md">
                 <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-white/70">
                   Seasonal Offer
